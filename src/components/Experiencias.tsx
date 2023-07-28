@@ -21,8 +21,6 @@ function Experiencia(){
               <Link className='linkEmpresas' to="AnjosCell"> AnjosCell </Link> </nav>
          </div>
        
-    
-   
 
          <div className="caixas" data-tab="content">
 
