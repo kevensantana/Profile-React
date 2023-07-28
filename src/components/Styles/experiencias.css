@@ -1,0 +1,96 @@
+/* experiencia  */
+
+#experiencia {
+
+  padding-top: 4rem;
+}
+
+.container-experiencia {
+  width: 90%;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.container-wrapper {
+  display: flex;
+}
+
+
+.menuEmpresas {
+  width:200px;
+  cursor: pointer;
+  margin: 2rem 2rem 1rem 1rem;
+}
+
+.menuEmpresas {
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.linkEmpresas.active {
+  background-color: var(--marcacao);
+  border-left: 2px solid #00d2df;
+  font-weight: 600;
+}
+
+.empresas li {
+  padding: 1rem;
+  border-left: 2px solid var(--border-left);
+  transition: background-color 0.5s ease;
+}
+
+.empresas ul li:hover {
+  background-color: var(--border-left);
+  border-left: 2px solid #00d2df;
+}
+
+.caixas {
+  margin-right: 5%;
+  padding: 2rem 0;
+}
+
+.caixas section {
+  margin-top: 1rem;
+}
+
+
+.box-experiencia {
+  border-bottom: 3px solid #252525;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  position: relative;
+  line-height: 2.5rem;
+}
+
+.box-experiencia h2 {
+  font-size: 1.6rem;
+}
+
+.ano {
+  font-size: 1.2rem;
+  float: right;
+  font-weight: bold;
+  filter: opacity(75%);
+  margin-top: 2px;
+
+}
+
+
+.exp-local {
+  margin: 1rem 0;
+  font-size: 1.4rem;
+  color: #00d2df;
+  font-weight: bold;
+
+}
+
+.exp-info{
+  text-align: justify;
+
+}
+
+.exp-info p {
+  filter: opacity(75%);
+  margin-bottom: 2rem;
+}
+

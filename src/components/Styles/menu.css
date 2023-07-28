@@ -1,0 +1,51 @@
+
+.container-header{
+  background-color: #151515;
+  border-bottom: .2rem solid #272727;
+  height: 6rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
+}
+
+
+#logo{
+  padding: 10px;
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: #00d2df;
+  transition: 0.3s;
+}
+
+
+#menu{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+
+  font-weight: bold;
+  transition: 0.3s;
+  font-size: 1.4rem;
+}
+
+#menu a{
+  display: block;
+  padding: .5rem;
+}
+
+#menu li::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #00d2df;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+#menu li:hover::after {
+  transform: scaleX(1);
+}
+
+
+
